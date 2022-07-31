@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit_miAuto</title>
+    <link rel="stylesheet" href="css/estilos_formServicio.css">
+    <script src="https://kit.fontawesome.com/01c56caea5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header >
+        <img id=logo src="imagenes/Logo_K.png" alt="Logo kawah">
+        <h1>KAWAH</h1>
+        <img id="perfil" src="imagenes/perfil.JPG" alt="Foto de perfil">
+        <h3>
+            Bienvenido: Leonardo Elias
+        </h3>
+        <nav class="menu">
+            <a href="Lista_reservación.html">
+                <i class="fa-solid fa-clipboard-list"></i>
+                Mis Recervaciones</a>
+            <a href="form_reservación.html">
+                <i class="fa-solid fa-bell-concierge"></i>
+                Realizar Reservación</a>
+            <a href="form_alquilar_auto.html">
+                <i class="fa-solid fa-car"></i>
+                Alquilar Automovil</a>
+            <a style="float: right;" href="index.html">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                Cerrar sesión</a>
+        </nav>
+    </header>
+    <div class="form_servicios">
+        <form action="Lista_reservación.html">
+            <label for="lname">Marca:</label><br>
+            <input type="text" id="lname" name="lname"placeholder="Honda CR-V" ><br>
+          
+            <label for="entrada">Fecha de entrega:</label><br>
+            <input type="date" id="entrada" name="entrada" ><br><br>
+
+            <label for="entrada">Fecha de devolución:</label><br>
+            <input type="date" id="entrada" name="entrada" ><br><br>
+    
+            <input id="aceptar" type="submit" name="aceptar" value="Agregar">
+            <input id="cancelar" type="submit" name="cancelar" value="Cancelar"> <br> <br>
+          </form>
+        </div>
+     <!-- Pie de página -->
+     <footer class="footer">
+        <table>
+            <tr>
+                <th>
+                    Cadena hotelera Kawah <br>
+                    Facebook Hoteles Kawah <br>
+                    Instagram Hoteles Kawah <br>
+                    Telefono 5551120102
+                </th><br><br>
+                <th>&#169 Leonardo, Julian</th>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

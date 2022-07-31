@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_reservación</title>
+    <link rel="stylesheet" href="css/estilos_formServicio.css">
+    <script src="https://kit.fontawesome.com/01c56caea5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header >
+        <img id=logo src="imagenes/Logo_K.png" alt="Logo kawah">
+        <h1>KAWAH</h1>
+        <img id="perfil" src="imagenes/perfil.JPG" alt="Foto de perfil">
+        <h3>
+            Bienvenido: Leonardo Elias
+        </h3>
+        <nav class="menu">
+            <a href="Lista_reservación.html">
+                <i class="fa-solid fa-clipboard-list"></i>
+                Mis Recervaciones</a>
+            <a href="form_reservación.html">
+                <i class="fa-solid fa-bell-concierge"></i>
+                Realizar Reservación</a>
+            <a href="form_alquilar_auto.html">
+                <i class="fa-solid fa-car"></i>
+                Alquilar Automovil</a>
+            <a style="float: right;" href="index.html">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                Cerrar sesión</a>
+        </nav>
+    </header>
+    <div class="form_reservacion">
+        <form action="Lista_reservación.html">
+            <table>
+                <tr>
+                    <th>
+                        <label for="lname">Pais:</label><br>
+                        <select name="pais" id="pais">
+                            <option>Colombia</option>
+                            <option>Brasil</option>
+                            <option>Vietnam</option>
+                            <option>Honduras</option>
+                            <option>India</option>
+                            <option>Indonesia</option>
+                        </select>
+                    </th>
+                    <th>
+                        <label for="lname">Hotel:</label><br>
+                        <input type="text" id="lname" name="lname" required><br><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="Aname">Cantidad de niños:</label><br>
+                        <input type="text" id="Aname" name="Aname" required><br><br>
+                    </th>
+                    <th>
+                        <label for="fname">Cantidad de adultos:</label><br>
+                        <input type="text" id="fname" name="fname" required><br><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="entrada">Fecha de entrada:</label><br>
+                        <input type="date" id="entrada" name="entrada" required><br><br>
+                    </th>
+                    <th>
+                        <label for="salida">Fecha de salida:</label><br>
+                        <input type="date" id="salida" name="salida" required><br><br>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+
+                        <input id="enviar" type="submit" name="enviar" value="Enviar">
+                    </th>
+                    <th>
+                        <input id="cancelar" type="reset" name="cancelar" value="Cancelar">
+                    </th>
+                </tr>
+            </table>
+        </form>
+    </div>
+     <!-- Pie de página -->
+     <footer class="footer">
+        <table>
+            <tr>
+                <th>
+                    Cadena hotelera Kawah <br>
+                    Facebook Hoteles Kawah <br>
+                    Instagram Hoteles Kawah <br>
+                    Telefono 5551120102
+                </th><br><br>
+                <th>&#169 Leonardo, Julian</th>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
